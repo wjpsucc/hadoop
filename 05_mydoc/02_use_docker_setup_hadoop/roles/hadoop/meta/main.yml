@@ -1,0 +1,8 @@
+#
+# Dependencies of this task
+# Author: Linou.Zhang
+#
+
+---
+dependencies:
+  - common

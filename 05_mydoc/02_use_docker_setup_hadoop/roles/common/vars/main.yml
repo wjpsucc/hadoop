@@ -1,0 +1,16 @@
+#
+# Variables used by common tasks
+# Author: Linou.Zhang
+#
+
+---
+jdk_version: '8u144'
+jdk_build: 'b01'
+jdk_filename: "jdk-{{ jdk_version }}-linux-x64.rpm"
+jdk_code: "090f390dda5b47b9b721c7dfaa008135"
+jdk_download_url: "http://download.oracle.com/otn-pub/java/jdk/{{ jdk_version }}-{{ jdk_build }}/{{ jdk_code }}/{{ jdk_filename }}"
+jdk_rpm: "/opt/{{ jdk_filename }}"
+
+epel_filename: "epel-release-latest-7.noarch.rpm"
+epel_url: "http://dl.fedoraproject.org/pub/epel/{{ epel_filename }}"
+epel_rpm: "/opt/{{ epel_filename }}"

@@ -1,0 +1,7 @@
+#
+## Variables used by each tasks
+## Author: Linou.Zhang
+##
+#
+---
+yarn.nodemanager.aux-services: 'mapreduce_shuffle'

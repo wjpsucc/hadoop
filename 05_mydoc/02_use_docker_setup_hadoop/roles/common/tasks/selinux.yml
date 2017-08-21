@@ -1,0 +1,5 @@
+- name: Copy selinux file
+  template: src={{ item }}.j2 dest=/etc/selinux/config
+  with_items:
+   - selinux
+

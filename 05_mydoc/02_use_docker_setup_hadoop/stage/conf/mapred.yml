@@ -1,0 +1,8 @@
+#
+### Variables used by yarn tasks
+### Author: Linou.Zhang
+###
+##
+#
+
+mapreduce.framework.name: 'yarn'

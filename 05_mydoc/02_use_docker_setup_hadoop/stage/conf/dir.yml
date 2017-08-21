@@ -1,0 +1,8 @@
+#
+## Variables used by hdfs tasks
+## Author: Linou.Zhang
+##
+#
+---
+fs.defaultFS: ''
+hadoop.tmp.dir: ''

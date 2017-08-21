@@ -1,0 +1,43 @@
+#
+# common tasks needed by other roles
+# Author: Linou.Zhang
+#
+
+---
+- name: mkdir
+  shell: "mkdir -p {{ DFS_NAME_DIR }}; chown hdfs:hadoop {{ DFS_NAME_DIR }}"
+  shell: "mkdir -p {{ DFS_DATA_DIR }}; chown hdfs:hadoop {{ DFS_DATA_DIR }} "
+  shell: "mkdir -p {{ FS_CHECKPOINT_DIR }}; chown hdfs:hadoop {{ FS_CHECKPOINT_DIR }} "
+  shell: "mkdir -p {{ HDFS_LOG_DIR }}; chown hdfs:hadoop {{ HDFS_LOG_DIR }} "
+  shell: "mkdir -p {{ HDFS_PID_DIR }}; chown hdfs:hadoop {{ HDFS_PID_DIR }} "
+  shell: "mkdir -p {{ HADOOP_CONF_DIR }}; chown hdfs:hadoop {{ HADOOP_CONF_DIR }} "
+  shell: "mkdir -p {{ YARN_LOCAL_DIR }}; chown yarn:hadoop {{ YARN_LOCAL_DIR }} "
+  shell: "mkdir -p {{ YARN_LOG_DIR }}; chown yarn:hadoop {{ YARN_LOG_DIR }} "
+  shell: "mkdir -p {{ YARN_LOCAL_LOG_DIR }}; chown yarn:hadoop {{ YARN_LOCAL_LOG_DIR }} "
+  shell: "mkdir -p {{ YARN_PID_DIR }}; chown yarn:hadoop {{ YARN_PID_DIR }} "
+  shell: "mkdir -p {{ MAPRED_LOG_DIR }}; chown mapred:hadoop {{ MAPRED_LOG_DIR }} "
+  shell: "mkdir -p {{ MAPRED_LOCAL_DIR }}; chown mapred:hadoop {{ MAPRED_LOCAL_DIR }} "
+  shell: "mkdir -p {{ MAPRED_PID_DIR }}; chown yarn:hadoop {{ MAPRED_PID_DIR }} "
+  shell: "mkdir -p {{ HIVE_CONF_DIR }}; chown hdfs:hadoop {{ HIVE_CONF_DIR }} "
+  shell: "mkdir -p {{ HIVE_LOG_DIR }}; chown hdfs:hadoop {{ HIVE_LOG_DIR }} "
+  shell: "mkdir -p {{ HIVE_PID_DIR }}; chown hdfs:hadoop {{ HIVE_PID_DIR }} "
+  shell: "mkdir -p {{ WEBHCAT_CONF_DIR }}; chown hdfs:hadoop {{ WEBHCAT_CONF_DIR }} "
+  shell: "mkdir -p {{ WEBHCAT_LOG_DIR }}; chown hdfs:hadoop {{ WEBHCAT_LOG_DIR }} "
+  shell: "mkdir -p {{ WEBHCAT_PID_DIR }}; chown hdfs:hadoop {{ WEBHCAT_PID_DIR }} "
+  shell: "mkdir -p {{ HBASE_CONF_DIR }}; chown hdfs:hadoop {{ HBASE_CONF_DIR }} "
+  shell: "mkdir -p {{ HBASE_LOG_DIR }}; chown hdfs:hadoop {{ HBASE_LOG_DIR }} "
+  shell: "mkdir -p {{ HBASE_PID_DIR }}; chown hdfs:hadoop {{ HBASE_PID_DIR }} "
+  shell: "mkdir -p {{ ZOOKEEPER_DATA_DIR }}; chown hdfs:hadoop {{ ZOOKEEPER_DATA_DIR }} "
+  shell: "mkdir -p {{ ZOOKEEPER_CONF_DIR }}; chown hdfs:hadoop {{ ZOOKEEPER_CONF_DIR }} "
+  shell: "mkdir -p {{ ZOOKEEPER_LOG_DIR }}; chown hdfs:hadoop {{ ZOOKEEPER_LOG_DIR }} "
+  shell: "mkdir -p {{ ZOOKEEPER_PID_DIR }}; chown hdfs:hadoop {{ ZOOKEEPER_PID_DIR }} "
+  shell: "mkdir -p {{ PIG_CONF_DIR }}; chown hdfs:hadoop {{ PIG_CONF_DIR }} "
+  shell: "mkdir -p {{ PIG_LOG_DIR }}; chown hdfs:hadoop {{ PIG_LOG_DIR }} "
+  shell: "mkdir -p {{ PIG_PID_DIR }}; chown hdfs:hadoop {{ PIG_PID_DIR }} "
+  shell: "mkdir -p {{ OOZIE_CONF_DIR }}; chown hdfs:hadoop {{ OOZIE_CONF_DIR }} "
+  shell: "mkdir -p {{ OOZIE_DATA }}; chown hdfs:hadoop {{ OOZIE_DATA }} "
+  shell: "mkdir -p {{ OOZIE_LOG_DIR }}; chown hdfs:hadoop {{ OOZIE_LOG_DIR }} "
+  shell: "mkdir -p {{ OOZIE_PID_DIR }}; chown hdfs:hadoop {{ OOZIE_PID_DIR }} "
+  shell: "mkdir -p {{ OOZIE_TMP_DIR }}; chown hdfs:hadoop {{ OOZIE_TMP_DIR }} "
+  shell: "mkdir -p {{ SQOOP_CONF_DIR }}; chown hdfs:hadoop {{ SQOOP_CONF_DIR }} "
+ 

@@ -1,0 +1,12 @@
+#
+## Variables used by hdfs tasks
+## Author: Linou.Zhang
+##
+#
+---
+jdk_version: '7u45'
+jdk_build: 'b18'
+jdk_filename: "jdk-{{ jdk_version }}-linux-x64.rpm"
+jdk_download_url: "http://download.oracle.com/otn-pub/java/jdk/{{ jdk_version }}-{{ jdk_build }}/{{ jdk_filename }}"
+jdk_rpm: "/vagrant/{{ jdk_filename }}"
+

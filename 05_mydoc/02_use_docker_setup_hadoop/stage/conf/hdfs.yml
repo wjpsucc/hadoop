@@ -1,0 +1,9 @@
+#
+## Variables used by hdfs tasks
+## Author: Linou.Zhang
+##
+#
+---
+dfs.replication: ''
+dfs.namenode.name.dir: ''
+dfs.datanode.data.dir: ''

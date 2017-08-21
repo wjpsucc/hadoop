@@ -1,0 +1,10 @@
+# This is a ansible play book to deploy HDP cluster
+# Usage: ansible-playbook main.yml
+# Author: Linou.Zhang
+
+---
+- hosts: all
+  roles:
+  - common
+  - hadoop
+  - hadoop_config

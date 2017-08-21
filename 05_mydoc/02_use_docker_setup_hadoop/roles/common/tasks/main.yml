@@ -1,0 +1,9 @@
+
+# The role for common tasks
+# Author: Linou.Zhang
+#
+---
+- include: selinux.yml
+- include: misc.yml
+- include: common.yml
+#- include: mkdir.yml

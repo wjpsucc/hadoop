@@ -1,0 +1,30 @@
+#
+## Variables used by hdfs tasks
+## Author: Linou.Zhang
+##
+#
+---
+# hadoop user
+hadoop: 'hadoop'
+hadoop_group: 'hadoop'
+hadoop_group_id: '20001'
+
+# hdfs user
+hdfs: 'hdfs'
+hdfs_group: 'hdfs'
+hdfs_group_id: '20002'
+
+# yarn user
+yarn: 'yarn'
+yarn_group: 'yarn'
+yarn_group_id: '20003'
+
+# mapred user
+mapred: 'mapred'
+mapred_group: 'mapred'
+mapred_group_id: '20004'
+
+# hive user
+hive: 'hive'
+hive_group: 'hive'
+hive_group_id: '20005'
